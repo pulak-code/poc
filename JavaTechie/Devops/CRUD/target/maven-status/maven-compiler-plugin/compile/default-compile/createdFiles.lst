@@ -1,4 +1,0 @@
-crud/entity/User.class
-crud/controller/UserController.class
-crud/service/UserService.class
-crud/repo/UserRepository.class

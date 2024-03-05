@@ -1,5 +1,0 @@
-package crud.repo;
-
-public class UserRepository {
-
-}
