@@ -1,0 +1,5 @@
+package crud.entity;
+
+public class User {
+
+}
