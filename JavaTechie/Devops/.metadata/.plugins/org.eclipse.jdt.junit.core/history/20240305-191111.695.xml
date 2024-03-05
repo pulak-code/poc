@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="UserControllerTest" project="CRUD" tests="5" started="5" failures="0" errors="0" ignored="0">
-  <testsuite name="crud.test.UserControllerTest" time="0.337" displayname="UserControllerTest" uniqueid="[engine:junit-jupiter]/[class:crud.test.UserControllerTest]">
-    <testcase name="testGetAllUsers" classname="crud.test.UserControllerTest" time="0.327" displayname="testGetAllUsers()" uniqueid="[engine:junit-jupiter]/[class:crud.test.UserControllerTest]/[method:testGetAllUsers()]"/>
-    <testcase name="testUpdateUser" classname="crud.test.UserControllerTest" time="0.003" displayname="testUpdateUser()" uniqueid="[engine:junit-jupiter]/[class:crud.test.UserControllerTest]/[method:testUpdateUser()]"/>
-    <testcase name="testCreateUser" classname="crud.test.UserControllerTest" time="0.001" displayname="testCreateUser()" uniqueid="[engine:junit-jupiter]/[class:crud.test.UserControllerTest]/[method:testCreateUser()]"/>
-    <testcase name="testDeleteUser" classname="crud.test.UserControllerTest" time="0.004" displayname="testDeleteUser()" uniqueid="[engine:junit-jupiter]/[class:crud.test.UserControllerTest]/[method:testDeleteUser()]"/>
-    <testcase name="testGetUserById" classname="crud.test.UserControllerTest" time="0.0" displayname="testGetUserById()" uniqueid="[engine:junit-jupiter]/[class:crud.test.UserControllerTest]/[method:testGetUserById()]"/>
-  </testsuite>
-</testrun>
