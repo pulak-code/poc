@@ -19,6 +19,7 @@ public class WordFreqCountLambdaStream {
 
 	private static Map<String, Long> countWords(String p) {
 		Pattern pattern = Pattern.compile("\\s+");
-		return pattern.splitAsStream(p).filter(token->!token.trim().isEmpty()).collect(Collectors.groupingBy(Function.identity(),LinkedHashMap::new,Collectors.counting()));	
+		return pattern.splitAsStream(p).filter(token->!token.trim().isEmpty()).collect(Collectors.groupingBy(Function.identity(),LinkedHashMap::new,Collectors.counting()));
+		
 	}
 }
