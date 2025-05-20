@@ -5,6 +5,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Objects;
+import java.util.stream.Collectors;
 
 import com.wipropractice.tesco.strings.util.MyPair;
 
@@ -32,6 +33,6 @@ public class SplitAndSortNamesAgesLambdaStream {
 					String name = parts[0];
 					int age = Integer.parseInt(parts[1]);
 					return new MyPair<>(name, age);
-				}).sorted(ageThenNameComparator).toList();
+				}).sorted(ageThenNameComparator).collect(Collectors.toList());
 	}
 }
