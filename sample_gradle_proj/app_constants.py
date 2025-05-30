@@ -1,0 +1,10 @@
+CONFIG_FILE='config.ini'
+GITHUB_CONFIG_SECTION='github'
+CONFIG_REPO_NAME='repo_name'
+CONFIG_REPO_OWNER='repo_owner'
+INPUT_FILE='file_to_read'
+OUTPUT_FILE_PATH=''
+OUTPUT_FILE=''
+DIRECTORY=''
+ENV_GITHUB_TOKEN=''
+
